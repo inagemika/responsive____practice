@@ -53,10 +53,10 @@
 .flex1 {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 .flex-item1 {
-  flex-direction:row-reverse;
   width: 300px;
   height: 300px;
   display: flex;
