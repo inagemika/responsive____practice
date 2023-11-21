@@ -111,7 +111,7 @@
   width: 300px;
   height: 300px;
   background-color:#0008ff;
-  visibility: hidden;
+  display: none;
   float: left;
 }
 
@@ -126,6 +126,7 @@
   width: 300px;
   height: 300px;
   background-color:#ff0000;
+  float: left;
 }
 
 
@@ -159,10 +160,13 @@
     order: 1;
   }
   .blue--box3{
-    visibility: visible;
+    display: block;
+  }
+  .green--box2{
+    display: block;
   }
   .red--box4{
-    visibility: hidden;
+    display: none;
   }
 }
 
